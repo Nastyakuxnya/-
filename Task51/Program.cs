@@ -38,7 +38,7 @@ int SumElemDiagonale(int[,] matrix)
     // if (size > matrix.GetLength(1)) size = matrix.GetLength(1); // (1) словия для оптимизации программы
 
     // for (int i = 0; i < size; i++) // (1) Условия для оптимизации программы
-    
+
     for (int i = 0; i < matrix.GetLength(0) && i<matrix.GetLength(1); i++)
     {
         // for (int j = 0; j < matrix.GetLength(1); j++)
