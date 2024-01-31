@@ -20,7 +20,8 @@ double dist = GetDistance(x1, y1, x2, y2);
 double distRound = Math.Round(dist, 2, MidpointRounding.ToZero);
 Console.Write("Расстояние между А и В: " + distRound);
 
-double GetDistance(int a1, int a2, int b1, int b2)
+double GetDistance(int a1, int a2, int b1, int 
+b2)
 {
     double firstCatet = b1 - a1;
     double secondCatet = b2 - a2;
